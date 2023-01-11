@@ -1,5 +1,5 @@
 # Ideje za projekt
-**Napomena:** dokument nije napisan do kraja.
+**Napomena:** dokument nije napisan do kraja. Dovršim uskoro.
 
 ## Napravio sam
 
@@ -17,7 +17,7 @@
 2. Radno okruženje za administratora:
     1. Sučelje za menadžiranje baze podataka hrane
     2. (opcionalno) Sučelje za vizualnu analizu statistike baza podataka
-3. Radno okruženje za blagajnika
+3. Radno okruženje za blagajnika:
     1. Sučelje za unos podataka studenta
     2. Sučelje za dodavanje hrane na račun
     3. Ispis računa
@@ -32,7 +32,7 @@ Izgled tablice *Radnik*: <br>
 KORISNICKO_IME (primary key) &ensp;|&ensp; LOZINKA <br>
 **Napomena:** Možda bismo mogli dodati neku funkcionalnost za praćenje radnog vremena radnika. To bi značilo da treba spremati u satima odrađeno vrijeme.
 ### 1. iii.
-sdfs
+
 ### 2. i.
 
 ### 2. ii.
