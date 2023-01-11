@@ -1,4 +1,5 @@
 # Ideje za projekt
+**Napomena:** dokument nije napisan do kraja.
 
 ## Napravio sam
 
