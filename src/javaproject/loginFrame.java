@@ -1,17 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package javaproject;
 
 /**
  *
  * @author Mihael
  */
+/*
+This is an example of a frame for the login window.
+It doesn't have the "main" function. The "Main" class takes care of displaying and 
+destruction.
+Variable "done" is used for signaling to Main when to transition to the next frame.
+Setting "done" to "true" will cause the frame's distruction and the end user will
+be prompted with the appropriate workspace window (worker or admin) depending on the
+"Main.id" variable.
+A full implementation is needed for this class. See documentation. 
+*/
 public class loginFrame extends javax.swing.JFrame {
 
     public boolean done;
-    String id;
     
     /**
      * Creates new form loginFrame

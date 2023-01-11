@@ -1,13 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package javaproject;
 
 /**
  *
  * @author Mihael
  */
+/*
+This is an example of a frame for the administrator. 
+It doesn't have the "main" function. The "Main" class takes care of displaying and 
+destruction.
+Variable "done" is used for signaling to Main when to transition to the previous frame.
+Setting "done" to "true" will cause the frame's distruction and the end user will
+be prompted with the login window again.
+A full implementation is needed for this class. See documentation. 
+*/
 public class adminFrame extends javax.swing.JFrame {
 
     boolean done;

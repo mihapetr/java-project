@@ -4,10 +4,19 @@ package javaproject;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ *
+ * @author Mihael
+ */
+
 public class Main {
     
     static String id;
 
+    /*
+    Defines a thread which takes care of displaying the initial window frame
+    where users login as "administrator" (admin) or "blagajnik" (worker).
+    */
     static class LoginPrompt implements Runnable {
         
         loginFrame lf = new loginFrame();
@@ -32,6 +41,10 @@ public class Main {
         }
     }
     
+    /*
+    Defines a thread which takes care of displaying the frame for
+    databases administrator.
+    */
     static class AdminWorkspace implements Runnable {
         
         adminFrame af = new adminFrame();
@@ -49,13 +62,17 @@ public class Main {
                 try {
                     Thread.sleep(100);
                 } catch (InterruptedException ex) {
-                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+                    //modify
                 }
             }
             af.dispose();
         }
     }
     
+    /*
+    Defines a thread which takes care of displaying the frame for
+    the cash register worker.
+    */
     static class WorkerWorkspace implements Runnable {
         
         workerFrame wf = new workerFrame();
@@ -73,7 +90,7 @@ public class Main {
                 try {
                     Thread.sleep(100);
                 } catch (InterruptedException ex) {
-                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+                    //modify
                 }
             }
             wf.dispose();
@@ -82,6 +99,11 @@ public class Main {
     
     public static void main(String[] args) {
         
+        /*
+        This main loop allows multiple users to use the app one after another.
+        Logging out of one workspace causes the program to prompt the user with
+        the login screen again.
+        */
         while(true) {
             
             Thread lp = new Thread(new LoginPrompt());
@@ -89,7 +111,7 @@ public class Main {
             try {
                 lp.join();
             } catch (InterruptedException ex) {
-                Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+                //modify
             }
 
             if(id == "admin") {
@@ -98,7 +120,7 @@ public class Main {
                 try {
                     aws.join();
                 } catch (InterruptedException ex) {
-                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+                    //modify
                 }
             } else if (id == "worker") {
                 Thread wws = new Thread(new WorkerWorkspace());
@@ -106,7 +128,7 @@ public class Main {
                 try {
                     wws.join();
                 } catch (InterruptedException ex) {
-                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+                    //modify
                 }
             } else {
                 System.out.println("id error after login");
