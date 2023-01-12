@@ -1,5 +1,4 @@
 # Ideje za projekt
-**Napomena:** dokument nije napisan do kraja. Dovršim uskoro.
 
 ## Razmislite!
 
