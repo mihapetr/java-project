@@ -27,6 +27,7 @@ Projekt kolegija Java PMF
 1. U *User* stavi svoj GitHub username.
 1. *Password* je **personal access token**. Vidi: [Creating p. a. token](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-personal-access-token) 
 1. U *Remote branches* označi *[naziv novo kreiranog brancha iz* **[Inicijalizacija na GitHub-u](#inicijalizacija-na-githubu)** *]* (ne *main* i ne *idea-for-main-class*) i klikni *Finish*. <br>
+
 Projekt bi se trebao normalno pokretati.
 
 ### Napišite mi poruku ako trebam napisati i upute za *push* vaših verzija na GitHub! 
