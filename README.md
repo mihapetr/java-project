@@ -51,12 +51,13 @@ JMBAG (primary key) &ensp;|&ensp; IME &ensp;|&ensp; PREZIME &ensp;|&ensp; SLIKA 
 
 ### 1. ii.
 Izgled tablice *Radnik*: <br>
-KORISNICKO_IME (primary key) &ensp;|&ensp; LOZINKA &ensp;|&ensp; IME &ensp;|&ensp; PREZIME <br>
+KORISNICKO_IME (primary key) &ensp;|&ensp; LOZINKA &ensp;|&ensp; IME &ensp;|&ensp; PREZIME &ensp;|&ensp; ULOGA <br> 
 **Napomene:** 
 * KORISNICKO_IME: string bez razmaka, LOZINKA: string bez razmakia, IME i PREZIME: stringovi
 * Možda bismo mogli dodati neku funkcionalnost za praćenje radnog vremena radnika. To bi značilo da treba spremati u satima odrađeno vrijeme.
 * KORISNIČKO_IME i LOZINKA služe prijavi u aplikaciju kroz početni prozor *LoginFrame*.
 * Na račnu se ispisuje ime i prezime prijavljenog blagajnika. 
+* ULOGA: character iz {'a','b'}.
 * (Aplikacija prati radno vrijeme blagajnika)
 
 ### 1. iii.
