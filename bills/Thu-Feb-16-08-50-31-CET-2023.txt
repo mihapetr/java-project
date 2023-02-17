@@ -1,0 +1,31 @@
+	SVEUČILIŠTE U NEMAGRADU
+	SC U NEMAGRADU, NG ALEJA PRAZNINE 52
+	NEMAGRAD, OIB: 54148779522
+	Rest.st.dom Ruža Petrarković
+	Linija 2
+	Ulica uspjeha 88
+
+Kasa: 214-2
+Datum: Thu Feb 16 08:50:31 CET 2023
+
+ARTIKL		KOL	SUBV.	CIJENA	IZNOS
+---------------------------------------------
+SOK JABUKA	1	0.4	0.9	0.9	
+BROKULA LESO	1	0.6	0.7	0.7	
+VARIVO SLANUTAK	1	0.7	2.1	2.1	
+---------------------------------------------
+				Suma:   3.7
+Stud.subvencija				2.25
+---------------------------------------------
+ZA PLATITI:	1.45EUR
+					10.93kn
+Fiksni tečaj konverzije: 1 eur = 7.53450 kn
+
+PDV nije uračunat po čl.39 Zakona
+
+
+Korisnik:  
+Preostalo subvencije: N/A
+Prava do: 15.10.2023.
+
+	HVALA NA POSJETI!!!
