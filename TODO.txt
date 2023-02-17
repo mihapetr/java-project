@@ -1,0 +1,10 @@
+* izaberi nekoliko klasa ili funkcija koje si pisao i napiši unit testove
+  barem da se vidi da znamo
+* dodaj dijalog window sa "slika.jpg" nakon unosa JMBAG-a (kao što je u stvranosti)
+* na račun ispiši ime blagajnika koji je izdao račun
+* koristi relative file path kod ispisa računa kako bi funkcioniralo na više računala bez modifikacije
+* onemogući ispis računa prije unosa valjanog JMBAG-a ILI omogući nesubvecionirano plaćanje
+  (trenutno se i bez JMBAG-a dobiva popust)
+
+* stavio sam sql.jar file u project folder preko relative path-a (reci mi funkcionira li)
+* napravit ću admin frame do kraja
